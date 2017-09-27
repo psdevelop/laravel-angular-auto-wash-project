@@ -1,0 +1,63 @@
+/*{
+  -webkit-overflow-scrolling: auto;
+}*/
+.separated {
+  padding-top: 2em;
+}
+
+.bs-example {
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: #FFF;
+    border-color: #DDD;
+    border-width: 1px;
+    border-radius: 4px 4px 0px 0px;
+    box-shadow: none;
+}
+
+.right-aligned {
+    text-align: right;
+}
+
+.total-price {
+    font-size:1.8em;
+}
+
+.checked{
+  background-color: #f2fbff;
+}
+
+tr.marked td{
+  background-color: #f2fbff;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background: none !important;
+  background-image: none !important;
+  filter: progid: none !important;
+}
+
+.input-xs{
+  height:18px;
+  padding: 1px 3px;
+  font-size:10px;
+  line-height:1.5;
+  border-radius:3px;
+}
+
+
+.car-svg-container{
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  padding-bottom: 60%;
+  vertical-align: middle;
+}
+
+.car-svg{
+  display: block;
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+}

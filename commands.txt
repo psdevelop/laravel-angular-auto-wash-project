@@ -1,0 +1,32 @@
+php artisan route:list
+
+php artisan make:controller PagesController
+php artisan make:controller PagesController --plain
+php artisan help make:controller
+
+-- blade --
+@unless
+@foreach
+@forelse
+
+GRANT ALL ON *.* TO 'larauser' IDENTIFIED BY 'lara123' 
+php artisan migrate
+php artisan migrate:rollback
+php artisan make:migration create_articles_table --create="articles"
+php artisan make:migration add_excerpt_to_articles_table --table="articles"
+
+composer require doctrine/dbal
+composer require illuminate/html
+php artisan make:model Article
+php artisan tinker
+
+$article = new App\Article
+
+php artisan make:controller ArticlesController --plain
+php artisan make:request CreateArticleRequest
+php artisan route:list
+php artisan migrate:refresh
+
+php artisan make:migration create_datafiles_table --create="datafiles"
+php artisan make:model Datafile
+php artisan make:controller DatafilesController --plain

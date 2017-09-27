@@ -1,0 +1,22 @@
+.separated {
+  padding-bottom: 2em;
+}
+
+.bs-example {
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: #FFF;
+    border-color: #DDD;
+    border-width: 1px;
+    border-radius: 4px 4px 0px 0px;
+    box-shadow: none;
+}
+
+.navbar-brand {
+   font-weight: 900;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background: none;
+  background-image: none;
+}
